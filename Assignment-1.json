@@ -1,0 +1,161 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Add Two Numbers\n",
+    "\n",
+    "firstNum = int(input(\"Enter First number : \"))\n",
+    "secondNum = int(input(\"Enter Second number : \"))\n",
+    "\n",
+    "addResult = firstNum + secondNum\n",
+    "\n",
+    "print(\"The Total of both given values is : \", addResult)\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Area of Circle Calculator\n",
+    "\n",
+    "print(\"Hello and Welcome to Area of a Circle Calculator \\n\")\n",
+    "\n",
+    "cirRadius = int(input(\"Enter the Radius of Circle : \"))\n",
+    "\n",
+    "calcRadius = (cirRadius**2)*3.14\n",
+    "\n",
+    "print(\"The area of the Circle as per your given Radius is : \", calcRadius)\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Data Time\n",
+    "\n",
+    "from datetime import datetime\n",
+    "now = datetime.now()\n",
+    "current_time = now.strftime(\"%H:%M:%S\")\n",
+    "current_date = now.strftime(\"%d-%m-%Y\")\n",
+    "print(\"--------------------------------\")\n",
+    "print(\"|                              |\")\n",
+    "print(\"| Current Date is \", current_date, \" |\")\n",
+    "print(\"| Current Time =\", current_time, \"     |\")\n",
+    "print(\"|                              |\")\n",
+    "\n",
+    "print(\"--------------------------------\")\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Print Version \n",
+    "\n",
+    "import sys\n",
+    "verNum = sys.version\n",
+    "print(\"Detailed System and Version Info is as follows:\")\n",
+    "print(verNum)\n",
+    "\n",
+    "print(\"\\n\")\n",
+    "print(\"Current python version # is : \", verNum[0:5])\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Show date time - Final\n",
+    "\n",
+    "from datetime import datetime\n",
+    "now = datetime.now()\n",
+    "current_time = now.strftime(\"%H:%M:%S\")\n",
+    "current_date = now.strftime(\"%d-%m-%Y\")\n",
+    "print(\"--------------------------------\")\n",
+    "print(\"|                              |\")\n",
+    "print(\"| Current Date is \", current_date, \" |\")\n",
+    "print(\"| Current Time =\", current_time, \"     |\")\n",
+    "print(\"|                              |\")\n",
+    "\n",
+    "print(\"--------------------------------\")\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Multiline formatted Text\n",
+    "\n",
+    "print(\"\"\"Twinkle, twinkle, little star,\n",
+    "         How I wonder what you are!\n",
+    "            Up above the world so high,\n",
+    "            Like a diamond in the sky.\n",
+    "Twinkle, twinkle, little star,\n",
+    "         How I wonder what you are\"\"\")\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#PROGRAM FOR REVERSING THE INPUT TEXT\n",
+    "\n",
+    "print(\"\"\"Hello,\n",
+    "    You know what\\'s wrong with me?\n",
+    "    I actually see everything in REVERSE.\n",
+    "            \"\"\")\n",
+    "\n",
+    "userInputFirst=input(\"Don\\'t believe? Let me have your first name? \")\n",
+    "userInputSecond=input(\"Now enter your last name please? \")\n",
+    "\n",
+    "userFullName = userInputFirst + \" \" + userInputSecond # Producing full name with space\n",
+    "\n",
+    "#print(userFullName)\n",
+    "\n",
+    "stringlength=len(userFullName) # calculate length of the list\n",
+    "slicedString=userFullName[stringlength::-1] # slicing \n",
+    "print (slicedString) # print the reversed string\n"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.7.4"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2
+}
